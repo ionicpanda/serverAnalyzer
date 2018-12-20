@@ -1,0 +1,43 @@
+#pdf
+{
+    margin-top: 10px;
+    float: right;
+}
+
+#loader{
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid chartreuse;
+    border-bottom: 16px solid chartreuse;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@keyframes spin{
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+
+.dropdown {
+    background-color: #44a52e;
+    color: white;
+    border-color: #444444;
+    border: 1px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.text {
+    padding: 0 20px;
+    display: none;
+    overflow: hidden;
+    background-color: #cfd8cd;
+}
+.active, .dropdown:hover {
+    background-color: #91e076;
+}

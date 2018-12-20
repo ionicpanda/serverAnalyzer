@@ -1,0 +1,18 @@
+red:
+  - category: Certificate Chain
+    flags:
+      - title: CN
+        value: google
+  - category: Response Header
+    flags:
+      - title: Status-Code
+        value: 200
+yellow:
+  - category: Response Header
+    flags:
+      - title: Transfer-Encoding
+        value: chunked
+  - category: Certificate Chain
+    flags:
+      - title: ST
+        value: California

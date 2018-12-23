@@ -13,5 +13,4 @@ A report is generated on the front end that shows security vulnerabilities.
 The user is able to save the information as a pdf.
 To check for certain vulnerabilities there is a configuration file that the user will need to use to flag certain information. 
 
-![alt text](https://github.com/ionicpanda/serverAnalyzer/analyzer.PNG  "Screenshot")
-
+![alt text](analyzer.PNG  "Screenshot")

@@ -24,7 +24,7 @@ The “Server Analyzer” is a small web application that identifies potential v
 ### Datapieces:
 The DataPieces directory contains all of the different modules that go out and retrieve information from the server.  All of these functionalities, be it certificate chain, supported protocols, or response header, are all inheriting their core structure from the DataPiece.java class.
 Pathway for Data Retrieval Modules(Items  1-3):
-	/src/main/java/com/commercebank/serveranalyer/BackEnd/DataPieces/.
+	/src/main/java/com/serveranalyer/BackEnd/DataPieces/.
 
 
 ### Protocol / Cipher Suites Function:

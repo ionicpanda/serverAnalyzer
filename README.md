@@ -1,4 +1,5 @@
-# serverAnalyzer
+# Server Analyzer
+
 Web Application Configuration Vulnerability Analyzer
 Written using springboot, maven and java.
 
